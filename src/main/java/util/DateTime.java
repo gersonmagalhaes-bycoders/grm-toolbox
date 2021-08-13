@@ -17,7 +17,6 @@ import java.util.TimeZone;
  * @author Gerson Rodrigues
  * @since 1.0
  *
-
  */
 
 public class DateTime {
@@ -113,7 +112,6 @@ public class DateTime {
 		SimpleDateFormat month = new SimpleDateFormat();
 		month.applyPattern("MM");
 		return month.format(this.date);		
-
 	}
 
 	public String getDay() {
