@@ -241,7 +241,7 @@ public class DateTime {
 		return this.getMonths()[month];
 	}
 
-	public String getMonthName2(int month)
+	public String getMonthName30(int month)
 	{
 		if (month > 11) return null;
 
