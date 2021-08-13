@@ -239,7 +239,14 @@ public class DateTime {
 		if (month > 11) return null;
 
 		return this.getMonths()[month];
-	}	
+	}
+
+	public String getMonthName2(int month)
+	{
+		if (month > 11) return null;
+
+		return this.getMonths()[month];
+	}
 
 	public static String getTimeZone() {
 
