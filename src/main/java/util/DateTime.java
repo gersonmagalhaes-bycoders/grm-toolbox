@@ -110,6 +110,7 @@ public class DateTime {
 
 	public String getMonth() {
 		SimpleDateFormat month = new SimpleDateFormat();
+
 		month.applyPattern("MM");
 		return month.format(this.date);		
 	}
